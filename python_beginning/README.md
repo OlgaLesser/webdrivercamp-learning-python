@@ -1,0 +1,1 @@
+This is a project for beginning of learning Python
