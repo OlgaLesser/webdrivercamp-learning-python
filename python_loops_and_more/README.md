@@ -1,0 +1,1 @@
+This project is about learning loops and conditional statements.
