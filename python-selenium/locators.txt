@@ -1,0 +1,7 @@
+0 - //ul[@class="vl-flyout-nav__container"]/li/a
+1 - //li[@class="x-refine__main__list"]
+2 - //li[@class="x-refine__main__list"]//div[text()='Category']
+3 - //li[@class="x-refine__main__list--value" and @name='Brand']//input[@aria-label='adidas']
+4 - //span[text()[contains(translate(., 'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'abcdefghijklmnopqrstuvwxyz'),'size 8.5 - air jordan 7 retro black gloss w')]]/ancestor::div[@class='s-item__wrapper clearfix']
+5 - //div[@id='gh-eb-My-o']//li/a
+style="display: block;"
