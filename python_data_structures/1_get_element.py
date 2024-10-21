@@ -4,6 +4,7 @@ index = 2
 
 
 def get_element(lst, ind):
+    ind = lst[ind]
     if ind < 0:
         print(None)
     elif ind > len(lst):
