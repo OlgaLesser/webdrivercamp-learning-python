@@ -1,8 +1,6 @@
 #!C:\Users\korch\AppData\Local\Programs\Python\Python312
-a = "Webdriver Awesome Camp"
-b = a[:9]
-print(b)
-c = a[10:17]
-print(c)
-d = a[18:22]
-print(d)
+string = "Webdriver Awesome Camp"
+first_word = string[0:9]
+second_word = string[10:17]
+third_word = string[18:22]
+print(first_word, second_word, third_word, sep='\n')
