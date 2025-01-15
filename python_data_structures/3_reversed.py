@@ -1,4 +1,9 @@
 #!C:\Users\korch\AppData\Local\Programs\Python\Python312
 list_ = [5, 4, 3, 2, 1]
-for item in list_[::-1]:
-    print(item, sep="\n")
+
+
+def print_list(some_list):
+    print(*some_list[::-1], sep="\n")
+
+
+print_list(list_)
