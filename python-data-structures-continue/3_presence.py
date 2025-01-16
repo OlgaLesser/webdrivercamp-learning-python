@@ -1,10 +1,6 @@
 #!/C:\Users\korch\AppData\Local\Programs\Python\Python312
 def common_elements(a, b):
-    my_list = []
-    for each in a:
-        if each in b:
-            my_list.append(each)
-    my_set = set(my_list)
+    my_set = a.intersection(b)
     return my_set
 
 
