@@ -1,12 +1,12 @@
 #!/C:\Users\korch\AppData\Local\Programs\Python\Python312
-def only_unique(list_=[]):
-    sum = 0
+def only_unique(lst):
     new_list = []
-    for i in list_:
-        if i not in new_list:
-            new_list.append(i)
-            sum += i
-    return sum
+    sum_of_elements = 0
+    for element in lst:
+        if element not in new_list:
+            new_list.append(element)
+            sum_of_elements += element
+    return sum_of_elements
 
 
 if __name__ == "__main__":
