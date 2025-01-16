@@ -1,14 +1,7 @@
 #!/C:\Users\korch\AppData\Local\Programs\Python\Python312
 def not_common_elements(a, b):
-    my_list = []
-    for each in a:
-        if each not in b:
-            my_list.append(each)
-    for each in b:
-        if each not in a:
-            my_list.append(each)
-    my_set = set(my_list)
-    return my_set
+    new_set = a.symmetric_difference(b)
+    return new_set
 
 
 if __name__ == "__main__":
