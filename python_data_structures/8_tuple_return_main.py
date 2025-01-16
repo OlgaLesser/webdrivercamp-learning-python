@@ -1,3 +1,4 @@
+#!C:\Users\korch\AppData\Local\Programs\Python\Python312
 tuple_return = __import__('8_tuple_return').tuple_return
 list_ = [1, 2, 3, 4, 5]
 result = tuple_return(list_)
