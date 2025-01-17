@@ -1,9 +1,7 @@
 #!/C:\Users\korch\AppData\Local\Programs\Python\Python312
 def mult_values(d):
-    new_dict = {}
-    for each_key in d:
-        new_dict[each_key] = d[each_key] * 2
-    return new_dict
+    my_dict = {key: value * 2 for key, value in d.items()}
+    return my_dict
 
 
 if __name__ == "__main__":
