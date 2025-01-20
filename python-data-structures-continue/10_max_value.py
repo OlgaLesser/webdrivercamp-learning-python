@@ -1,13 +1,15 @@
 #!/C:\Users\korch\AppData\Local\Programs\Python\Python312
 def max_value(d):
-    max_number = 0
-    key = None
-    if d is not None:
-        for every_key in d:
-            if d[every_key] > max_number:
-                max_number = d[every_key]
-                key = every_key
-    return key
+    biggest_key = None
+    biggest_value = 0
+    if d is None:
+        return None
+    else:
+        for key, value in d.items():
+            if value > biggest_value:
+                biggest_key = key
+                biggest_value = value
+        return biggest_key
 
 
 if __name__ == "__main__":
