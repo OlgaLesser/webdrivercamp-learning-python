@@ -1,13 +1,11 @@
 #!/C:\Users\korch\AppData\Local\Programs\Python\Python312
-def calc_weight(list_=[]):
-    y = 0
-    z = 0
-    for i in list_:
-        x = i[0] * i[1]
-        y = y + x
-        z = i[1] + z
-    my_result = y / z
-    return my_result
+def calc_weight(some_list):
+    if len(some_list) == 0:
+        return 0
+    else:
+        numerator = sum(x * y for x, y in some_list)
+        denominator = sum(y for x, y in some_list)
+        return numerator / denominator
 
 
 if __name__ == "__main__":
