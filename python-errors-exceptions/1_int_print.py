@@ -1,9 +1,9 @@
 #!C:\Users\korch\AppData\Local\Programs\Python\Python312
-def int_print(value):
+def int_print(some_value):
     try:
-        print(f"{value:d}")
+        print(f"{some_value:d}")
         return True
-    except Exception:
+    except ValueError:
         return False
 
 
