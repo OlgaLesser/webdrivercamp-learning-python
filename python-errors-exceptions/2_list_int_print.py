@@ -1,16 +1,17 @@
 #!C:\Users\korch\AppData\Local\Programs\Python\Python312
 def list_int_print(lst, i=0):
-    count_el = 0
-    for x in range(i):
+    number_of_integers = 0
+    for index in range(i):
         try:
-            print(f"{lst[x]:d}", end='')
-            count_el += 1
+            if isinstance(lst[index], int):
+                print(f"{lst[index]:d}", end="")
+                number_of_integers += 1
         except ValueError:
             pass
         except TypeError:
             pass
     print()
-    return count_el
+    return number_of_integers
 
 
 if __name__ == "__main__":
