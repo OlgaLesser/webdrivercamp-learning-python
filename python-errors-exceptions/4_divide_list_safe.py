@@ -1,6 +1,5 @@
 #!C:\Users\korch\AppData\Local\Programs\Python\Python312
 def divide_list_safe(list1, list2, list_len):
-    result = 0
     new_list = [0] * list_len
     for i in range(list_len):
         try:
@@ -15,6 +14,8 @@ def divide_list_safe(list1, list2, list_len):
         except IndexError:
             new_list[i] = 0
             print("out of range")
+        finally:
+            pass
     return new_list
 
 
